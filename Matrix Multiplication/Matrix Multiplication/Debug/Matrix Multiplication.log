@@ -1,0 +1,24 @@
+﻿Build started 3/15/2014 12:43:13 PM.
+     1>Project "c:\Users\HB\documents\visual studio 2012\Projects\Matrix Multiplication\Matrix Multiplication\Matrix Multiplication.vcxproj" on node 2 (Build target(s)).
+     1>CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\HB\AppData\Local\Temp\tmpbbe325baa49547afbea16dcfe810ff11.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "c:\Users\HB\documents\visual studio 2012\Projects\Matrix Multiplication\Matrix Multiplication\kernel.cu"
+         
+         c:\Users\HB\documents\visual studio 2012\Projects\Matrix Multiplication\Matrix Multiplication>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "c:\Users\HB\documents\visual studio 2012\Projects\Matrix Multiplication\Matrix Multiplication\kernel.cu" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\hb\documents\visual studio 2012\Projects\Matrix Multiplication\Debug\Matrix Multiplication.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cudart.lib cusparse.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\hb\documents\visual studio 2012\Projects\Matrix Multiplication\Debug\Matrix Multiplication.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\hb\documents\visual studio 2012\Projects\Matrix Multiplication\Debug\Matrix Multiplication.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         Matrix Multiplication.vcxproj -> c:\users\hb\documents\visual studio 2012\Projects\Matrix Multiplication\Debug\Matrix Multiplication.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "c:\users\hb\documents\visual studio 2012\Projects\Matrix Multiplication\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "c:\users\hb\documents\visual studio 2012\Projects\Matrix Multiplication\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "c:\users\hb\documents\visual studio 2012\Projects\Matrix Multiplication\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart32_55.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart64_55.dll
+                 2 file(s) copied.
+     1>Done Building Project "c:\Users\HB\documents\visual studio 2012\Projects\Matrix Multiplication\Matrix Multiplication\Matrix Multiplication.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.30
